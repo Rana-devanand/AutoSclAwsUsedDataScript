@@ -6,7 +6,7 @@ sudo apt install nodejs -y
 sudo apt install npm -y
 mkdir -p /home/ubuntu/.ssh
 ssh-keyscan -t rsa github.com > /home/ubuntu/.ssh/known_hosts
-git clone 
+git clone https://github.com/Rana-devanand/FlightService-api-gateway-.git
 cd API_Gateway
 sudo npm install
 
